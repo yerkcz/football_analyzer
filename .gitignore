@@ -1,0 +1,16 @@
+# Entorno virtual de Python
+venv/
+__pycache__/
+
+# Archivo de configuración con secretos (.env)
+.env
+
+# Archivos de IDEs
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+
+# Notebooks checkpoints
+.ipynb_checkpoints
