@@ -1,0 +1,9 @@
+# Archivo de configuración para secretos de la aplicación.
+# Conexión a la base de datos PostgreSQL en Neon.tech.
+
+# La URI de conexión directa que nos dio Neon.tech
+DATABASE_URI="postgresql://neondb_owner:npg_iCfyX3v5MIxa@ep-solitary-bar-adhzjxdi-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require"
+
+# Clave de la API para football-data.org (la obtendremos después).
+API_KEY="TU_API_KEY_AQUI"
+```    *Nota: He quitado el parámetro `&channel_binding=require` porque no es necesario para la librería `psycopg2` y a veces puede causar problemas si no se configura del lado del servidor. `sslmode=require` es el importante y está incluido.*
