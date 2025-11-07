@@ -6,9 +6,12 @@
 - **Entorno Virtual:** `venv` con dependencias en `requirements.txt`.
 
 ## Fase 2: Base de Datos Profesional (Completada)
-- **Diagnóstico:** Se identificó un problema de infraestructura irresoluble con la instancia de Supabase asignada (incompatibilidad de red IPv6 y fallo del Session Pooler).
-- **Decisión Estratégica:** Se tomó la decisión de migrar a un proveedor de PostgreSQL especializado para garantizar la estabilidad y viabilidad del proyecto.
-- **Plataforma Final:** Proyecto `football-analyzer` creado en **Neon.tech**.
-- **Esquema SQL:** El esquema de base de datos escalable fue implementado exitosamente en la nueva instancia de Neon.
-- **Gestión de Secretos:** Archivo `.env` reconfigurado para usar la `DATABASE_URI` de Neon.
-- **Estado:** ¡Conexión a la base de datos verificada y exitosa! El cimiento del proyecto es ahora 100% funcional y robusto.
+- **Decisión Estratégica:** Migración a Neon.tech para garantizar estabilidad.
+- **Plataforma Final:** Proyecto `football-analyzer` en Neon.tech.
+- **Esquema SQL:** Implementado exitosamente en la nueva instancia de Neon.
+- **Estado:** Conexión a la base de datos verificada y exitosa.
+
+## Fase 3: Puente de Datos (Completada)
+- **API Key:** Obtenida y almacenada de forma segura en el archivo `.env`.
+- **Módulo Cliente:** Creado el módulo reutilizable `src/utils/api_client.py` para gestionar todas las comunicaciones con la API de football-data.org.
+- **Estado:** ¡Conexión a la API verificada y exitosa! El proyecto puede obtener datos externos.
